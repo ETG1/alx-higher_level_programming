@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 def magic_calculation(a, b):
-    '''Function match's with the bytecode provided by Alx School.'''
     from magic_calculation_102 import add, sub
 
     if a < b:
