@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def addition(a, b):
+def add(a, b):
     """My addition function
 
     Args:
@@ -12,7 +12,7 @@ def addition(a, b):
     return (a + b)
 
 
-def subtraction(a, b):
+def sub(a, b):
     """My subtraction function
 
     Args:
@@ -25,7 +25,7 @@ def subtraction(a, b):
     return (a - b)
 
 
-def multiplication(a, b):
+def mul(a, b):
     """My multiplication function
 
     Args:
@@ -38,7 +38,7 @@ def multiplication(a, b):
     return (a * b)
 
 
-def division(a, b):
+def div(a, b):
     """My division function
 
     Args:
@@ -49,4 +49,3 @@ def division(a, b):
         The return value. a / b
     """
     return int(a / b)
-
