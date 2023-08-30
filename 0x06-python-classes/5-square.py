@@ -11,6 +11,7 @@ class Square:
         if size is less than 0,: ValueError'''
 
         self.__size = size
+
     @property
     def size(self):
         """Get's current size of the square."""
